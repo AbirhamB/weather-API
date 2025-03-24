@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="stylesheet" type="text/css" href='./index.css' />
+</head>
+<body>
+
+    <div class="card">
+        <div class="search-bar">
+            <input class="searchBox" type="text" placeholder="Search city worldwide" spellcheck="false"/>
+            <button class="searchBtn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSz_oRKHdP5rFmsbzgJxqgxovxKxKAkptOeA&s"/></button>
+        </div>
+
+        <div class="weather">
+            <img class="weather-img" src="https://media.gettyimages.com/id/184919103/photo/weather.jpg?s=612x612&w=gi&k=20&c=mpQNp2feoL3wnOE3eX5ZszGBubpMJeV8QTdn9X9K1-s=" />
+            <h1 class="temp">T°C</h1>
+            <h2 class="city">City</h2>
+        </div>
+        <div class="detail">
+            <div class="humidity">
+                <div class="humidity-details">
+                    <img class="humidity-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7y6G-ktSICBiahp4tcPJbjnHwjct_qWfY3g&s"/>
+                    <p class="humidity-result"></p>
+                    
+                </div>
+                <p class="humidity-p"> humidity</p>
+                         
+            </div>
+
+            <div class="wind">
+                <div class="wind-details">
+                    <img class="wind-img" src="https://media.istockphoto.com/id/523181467/vector/wind-icon-vector.jpg?s=612x612&w=0&k=20&c=RTf7pBwFye2IcnkJohqhrs6MAb2G4dQ8Dkfo-Bc6V-g="/>
+                    <p class="wind-result"></p>
+                    
+                </div>
+                <p class="wind-p">wind speed</p>
+                
+            </div>
+        </div>
+        <footer>
+            <p>© 2025 Abay. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+    
+</body>
+</html>

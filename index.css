@@ -1,0 +1,128 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right,#90b0bc, #68a8bf);
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.search-bar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px 35px;
+  gap:3px;
+
+}
+
+.search-bar input{
+    border-radius: 20px;
+    max-width: 170px;
+    min-width:80px;
+    padding:15px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color:rgb(231, 216, 216) ;
+    color:black;
+}
+
+.search-bar button{
+    width:60px;
+    height:45px;
+    border-radius: 80%;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+}
+.search-bar button img{
+ width:30px;
+ border-radius: 30px;
+}
+
+.weather{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.humidity{
+    margin: 5px;
+}
+.humidity-details{
+    display:flex;
+    align-items: center;
+    gap:8px;
+   
+}
+
+.wind-details{
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+
+.wind-p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:black;
+}
+
+.humidity-p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:black;
+   
+}
+
+.wind-result{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.humidity-result{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.humidity-img{
+    width:40px;
+    border-radius:5px;
+    margin-left: 8px;
+}
+
+.wind-img{
+    width:40px;
+    border-radius:5px;
+    margin-left: 8px;
+}
+.weather-img{
+    width:250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+footer {
+    position: fixed; /* Keep it at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Center the text */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding for spacing */
+}
